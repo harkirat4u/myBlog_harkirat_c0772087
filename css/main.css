@@ -1,0 +1,334 @@
+/* style for Mobile  */
+
+
+/* style for body */
+
+body {
+    background-color: #323d32;
+}
+
+
+/* style for container */
+
+#container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1b1a19;
+}
+
+
+/* style for desktop class */
+
+.desktop {
+    display: none
+}
+
+
+/* style for fotter */
+
+footer {
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 2em;
+    color: aliceblue;
+    clear: left;
+}
+
+
+/* style for a tag in footer */
+
+footer a {
+    color: white;
+}
+
+
+/* style for header */
+
+header {
+    text-align: center;
+    padding-top: 1em;
+}
+
+
+/* style for h1 in header */
+
+header h1 {
+    color: rgb(221, 111, 21);
+}
+
+
+/* style for fluid image */
+
+img {
+    max-width: 100%;
+}
+
+
+/* style for main */
+
+main {
+    border-style: none;
+    box-shadow: 12px 12px 12px #404040;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: rgb(100, 124, 52);
+}
+
+
+/*style for img tag in mobile class  */
+
+.mobile img {
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* style for mobile class */
+
+.mobile {
+    display: inline;
+}
+
+
+/* style  for the bar containing links */
+
+nav {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -1.5px;
+    display: block;
+}
+
+
+/* style specifie the padding and margin in undored list of nav  */
+
+nav ul {
+    padding: 0;
+    /* margin-top: 0.5em; */
+    margin-bottom: 0, 5em;
+}
+
+
+/* style for the li in nav */
+
+nav li {
+    background-color: rgb(206, 106, 24);
+    border-radius: 2em;
+    margin: 0.3em;
+    padding: 0.4em;
+    list-style-type: none;
+}
+
+
+/* for the anchor tag in li */
+
+nav li a {
+    text-decoration: none;
+}
+
+
+/* when the link is visted */
+
+nav li a:visited {
+    color: white
+}
+
+
+/* when hover over link */
+
+nav li a:hover {
+    font-style: italic;
+    color: rgb(204, 39, 39);
+}
+
+
+/* when link is active */
+
+nav li a:active {
+    color: rgb(119, 172, 51)
+}
+
+
+/* style for paragraph */
+
+p {
+    font-size: 20px;
+}
+
+
+/* style for p tag in section */
+
+section .mobile p {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+
+/* style for h1 tag in section */
+
+section .mobile h1 {
+    padding-left: 0.5em;
+}
+
+
+/* style for unorder list */
+
+ul {
+    font-size: 20px;
+}
+
+
+/* media query fot tablet viewport target - min width :450px */
+
+@media only screen and (min-width: 720px) {
+    /* style for aside */
+    aside {
+        float: left;
+        width: 30%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-right: 1%;
+        background-color: rgb(212, 219, 172);
+        padding-top: 7em;
+        border-radius: 20em 1em 1em 20em;
+    }
+    /* style for aside_list class */
+    .aside_list {
+        padding-left: 4em;
+        margin-right: 1em;
+    }
+    /* style for desktop class */
+    .desktop {
+        display: inline;
+    }
+    /* style for display-flex class */
+    .display-flex {
+        display: flex;
+    }
+    /* style for header */
+    header {
+        text-align: left;
+    }
+    /* style for img in header */
+    header img {
+        height: auto;
+        width: auto;
+        padding-top: 0.5em;
+        padding-left: 0.5em;
+    }
+    /* style for h1 in style */
+    header h1 {
+        float: right;
+        padding-right: 0.5em;
+        padding-top: 0.5em;
+    }
+    /* style for img-left clas */
+    .img-left {
+        float: left;
+        padding-left: 0, 5em;
+        padding-bottom: 0.5em;
+        border-radius: 9em 9em 9em 9em;
+        padding-top: 0.5em;
+        margin-right: 0.5em;
+    }
+    /* style for mobile class */
+    .mobile {
+        display: none;
+    }
+    /* style for music */
+    .music {
+        display: none;
+    }
+    /* style for navbar */
+    nav {
+        float: left;
+        margin-top: -3em;
+        padding-left: 7em;
+    }
+    /* style for ul in nav */
+    nav ul {
+        margin: 0;
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+    }
+    /* style for list items  in nav */
+    nav li {
+        background-color: transparent;
+        display: inline-block;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 1em;
+        width: 20%;
+    }
+    /* style for anchor tag inside nav li */
+    nav li a {
+        padding: 0.7em;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        text-decoration: none;
+        text-shadow: 1px 1px;
+        font-weight: bold;
+        font-size: large;
+    }
+    /* when the link is visted */
+    nav li a:visited {
+        color: rgb(221, 125, 14);
+    }
+    /* when hover over link */
+    nav li a:hover {
+        font-style: italic;
+        color: rgb(204, 39, 39);
+    }
+    /* when link is active */
+    nav li a:active {
+        color: rgb(78, 105, 42)
+    }
+    /* style for section */
+    section {
+        float: left;
+        width: 70%;
+        margin-top: 1%;
+        background-color: transparent;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+    /* style for img tag in section */
+    section img {
+        text-align: left;
+    }
+    /* style for table */
+    table,
+    th {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        background-color: rgb(212, 219, 172);
+        border-radius: 2em 2em 1em 1em;
+    }
+    /* style for table  */
+    td {
+        border-radius: 2em 2em 2em 2em;
+        border: 1px solid black;
+        text-align: left;
+        padding: 8px;
+    }
+    th {
+        text-align: center;
+    }
+}
+
+
+/* media query for desktop */
+
+@media only screen and (min-width: 999px) {
+    /* style for img-left clas */
+    .img-left {
+        border-radius: 0em 9em 9em 9em;
+    }
+    /* style for music */
+    .music {
+        display: inline;
+    }
+}

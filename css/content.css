@@ -1,0 +1,313 @@
+    /* /* Style for mobile view *                      Css is alphabetically arranged */
+    /* style for body */
+    
+    body {
+        background-color: #323d32;
+    }
+    /* style for container */
+    
+    #container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #1b1a19;
+    }
+    /* style fot unorder list */
+    
+    ul {
+        font-size: 20px;
+    }
+    /* style for class  desktop for education page */
+    
+    .desktop {
+        display: none
+    }
+    /* style for class edu_text in education page*/
+    
+    .edu_text {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    /* style for footer */
+    
+    footer {
+        font-size: 0.7em;
+        text-align: center;
+        margin-top: 2em;
+        color: aliceblue;
+        clear: left;
+    }
+    /* style for anchor in footer */
+    
+    footer a {
+        color: white;
+    }
+    /* style for heading in header*/
+    
+    header h1 {
+        color: rgb(221, 111, 21);
+    }
+    /* style for header */
+    
+    header {
+        text-align: center;
+        padding-top: 1em;
+    }
+    /* style for fluid image */
+    
+    img {
+        max-width: 100%;
+    }
+    /* style for main */
+    
+    main {
+        border-style: none;
+        box-shadow: 12px 12px 12px #404040;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        background-color: rgb(100, 124, 52);
+    }
+    /* style for class  mobile for education page  */
+    
+    .mobile {
+        display: inline;
+    }
+    /*  style for  img in education page */
+    
+    .mobile img {
+        border-radius: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* style  for the bar containing links */
+    
+    nav {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 1.25em;
+        font-weight: bold;
+        text-align: center;
+        margin-top: -1.5px;
+        display: block;
+    }
+    /* style specifie the padding and margin in undored list of nav  */
+    
+    nav ul {
+        padding: 0;
+        /* margin-top: 0.5em; */
+        margin-bottom: 0, 5em;
+    }
+    /* style for the li in nav */
+    
+    nav li {
+        background-color: rgb(206, 106, 24);
+        border-radius: 2em;
+        margin: 0.3em;
+        padding: 0.4em;
+        list-style-type: none;
+    }
+    /* for the anchor tag in li */
+    
+    nav li a {
+        text-decoration: none;
+    }
+    /* when the link is visted */
+    
+    nav li a:visited {
+        color: white
+    }
+    /* when hover over link */
+    
+    nav li a:hover {
+        font-style: italic;
+        color: rgb(204, 39, 39);
+    }
+    /* when link is active */
+    
+    nav li a:active {
+        color: rgb(119, 172, 51)
+    }
+    /* style for paragraph tag */
+    
+    p {
+        font-size: 20px;
+    }
+    /* media query for Tablet View */
+    
+    @media only screen and (min-width: 720px) {
+        /* style for aside */
+        aside {
+            float: left;
+            width: 30%;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            margin-left: 1%;
+            padding-left: 1em;
+            background-color: rgb(212, 219, 172);
+            padding-top: 7em;
+            border-radius: 1em 25em 25em 1em;
+        }
+        /* style for aside_list class */
+        .aside_list {
+            padding-left: 0.5em;
+            margin-right: 3em;
+        }
+        /* style for class  desktop for education page */
+        .desktop {
+            display: inline;
+        }
+        /* style for main of education page */
+        main {
+            display: flex;
+        }
+        /* style for header */
+        header {
+            text-align: left;
+        }
+        /* style for header img */
+        header img {
+            height: auto;
+            width: auto;
+            padding-top: 0.5em;
+            padding-left: 0.5em;
+        }
+        /* style for h1 in header */
+        header h1 {
+            float: right;
+            padding-right: 0.5em;
+            padding-top: 0.5em;
+        }
+        /* style for images of education page */
+        .image1 {
+            text-align: center;
+            width: 100%;
+            margin-left: 1%;
+            margin-right: 1%;
+            margin-bottom: 1%;
+            opacity: 0.5;
+        }
+        /* style for image */
+        .image1:hover {
+            opacity: 1;
+        }
+        /* style for main */
+        main {
+            border-style: none;
+            box-shadow: 12px 12px 12px #404040;
+            margin-top: 1em;
+            margin-bottom: 1em;
+            background-color: rgb(100, 124, 52);
+        }
+        /* style for class  mobilr for education page */
+        .mobile {
+            display: none;
+        }
+        /* style  for the bar containing links */
+        nav {
+            float: left;
+            margin-top: -3em;
+            padding-left: 7em;
+        }
+        /* style for ul in nav */
+        nav ul {
+            margin: 0;
+            padding-left: 0.5%;
+            padding-right: 0.5%;
+        }
+        /* style for list items  in nav */
+        nav li {
+            background-color: transparent;
+            display: inline-block;
+            margin-left: 0;
+            margin-right: 0;
+            padding: 1em;
+            width: 20%;
+        }
+        /* style for anchor tag inside nav li */
+        nav li a {
+            padding: 0.7em;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            text-decoration: none;
+            text-shadow: 1px 1px;
+            font-weight: bold;
+            font-size: large;
+        }
+        /* when the link is visted */
+        nav li a:visited {
+            color: rgb(221, 125, 14);
+        }
+        /* when hover over link */
+        nav li a:hover {
+            font-style: italic;
+            color: rgb(204, 39, 39);
+        }
+        /* when link is active */
+        nav li a:active {
+            color: rgb(78, 105, 42)
+        }
+        /* style for section */
+        section {
+            background-color: transparent;
+            float: left;
+            width: 70%;
+        }
+        /* style for class  tablet for education page */
+        .tablet {
+            display: none;
+        }
+        /* style for video */
+        #video-d {
+            display: none;
+        }
+        /*  */
+        .work-image {
+            margin-left: 1em;
+            margin-right: 1em;
+        }
+    }
+    /* media query for desktop */
+    
+    @media only screen and (min-width: 999px) {
+        /* style for aside */
+        aside {
+            border-radius: 1em 20em 20em 1em;
+        }
+        /* style for class  desktop for education page */
+        .desktop {
+            display: inline;
+        }
+        /* style for class images1, images2, images3 for education page */
+        .image1,
+        .image2,
+        .image3 {
+            float: left;
+            width: 31%;
+            margin-left: 1%;
+            margin-right: 1%;
+            margin-bottom: 1%;
+            opacity: 0.5;
+        }
+        /* style for id  imagesfor education page */
+        #images {
+            margin-left: 0.5em;
+        }
+        /* style for image */
+        .image2:hover {
+            opacity: 1;
+        }
+        /* style for image */
+        .image3:hover {
+            opacity: 1;
+        }
+        /* style for class  tablet for education page */
+        .tablet {
+            display: inline;
+        }
+        /* style for tablet-only class */
+        .tablet-only {
+            display: none;
+        }
+        /* style for video */
+        #video-d {
+            display: none;
+        }
+    }
